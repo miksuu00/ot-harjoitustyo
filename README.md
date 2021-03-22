@@ -2,7 +2,7 @@
 ### **Viikko1**
 [gitlog.txt](https://github.com/miksuu00/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
 
-
+-changes for epäsynkro, huuda ku opelin laatikko
 
 [komentorivi.txt](https://github.com/miksuu00/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
