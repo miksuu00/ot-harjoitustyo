@@ -1,0 +1,113 @@
+commit f4b84d4032d9f9090b4d9158a151d4bfac2666de
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 10:13:03 2021 +0200
+
+    muutokset ja poistot file1 file2 file3
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit a4bb1707e2b9689a79f630ec9c4c70791c4dcd3b
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 10:10:11 2021 +0200
+
+    luotu tiedostoja tiedostoja kansioon
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 2d95df55ae2496e0dba513eedd8516f5f4f18fc0
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:55:14 2021 +0200
+
+    git add -p vivun testaus ja muutokset tiedostoihin kolmas.txt ja eka.txt
+
+ eka.txt    | 9 ++++++++-
+ kolmas.txt | 8 ++++++--
+ 2 files changed, 14 insertions(+), 3 deletions(-)
+
+commit 16e6e34707396139a58644effcf610064285ce62
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:50:12 2021 +0200
+
+    uudelleen nimeämisen ihmeellinen maailma tiedosto.txt -> eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 25f1101144b4995dd098da432dedc82cb0c05dd7
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:48:34 2021 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 5a363ed0576b936fe607dd3f3d4dc6826b61e78f
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:45:28 2021 +0200
+
+    Ronaldinhon elämäntarina ja pekoni resepti
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 40d3cb9a45e862a634ae09f9a075fda062126db2
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:44:06 2021 +0200
+
+    Pekoni resepti ja muutokset
+
+ tiedosto.txt | 42 ++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 42 insertions(+)
+
+commit 5883a3045e3c589f57358a18d347a3a713c63828
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:34:09 2021 +0200
+
+    Limp Biscuit add-on ja stuff kansio
+
+ stuff/break.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 657e7486da4df28673ec0941d07910a132ebe768
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:31:17 2021 +0200
+
+    päivityksiä kolmas ja toinen.txt
+
+ kolmas.txt | 3 +++
+ toinen.txt | 1 +
+ 2 files changed, 4 insertions(+)
+
+commit befd1658f387f804728c011c547f2975de19f949
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:29:12 2021 +0200
+
+    kolmas.txt lisätty
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 6b7c4d3efcf0a55f4dc9509c8289e77ca0a10d1f
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:24:02 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit fa1ece24bdb635ce1360be57a0bc3d261c0bc545
+Author: Kelttipekoni <mikko.saurento@helsinki.fi>
+Date:   Mon Mar 22 08:15:29 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
