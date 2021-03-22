@@ -1,6 +1,9 @@
 **Header on tässä**
 ### **Viikko1**
 [gitlog.txt](https://github.com/miksuu00/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+
+
+
 [komentorivi.txt](https://github.com/miksuu00/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 *Sisältö listaa
   * Osio yksi, erilaisa tekstinpätkiä
