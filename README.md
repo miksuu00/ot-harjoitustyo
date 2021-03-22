@@ -5,8 +5,12 @@
 
 
 [komentorivi.txt](https://github.com/miksuu00/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
-*Sisältö listaa
+
+
+* Sisältö listaa
   * Osio yksi, erilaisa tekstinpätkiä
+  * Tulihan tässä myös testattua pullia ja pushia
+
 
 *If i could find an Italic xpression of graphical lettering* Jostain se täytyy kokemattoman aloittaa __Nasta **lautaan** sanoi lautturi__
 
