@@ -1,4 +1,4 @@
-			#**Vaatimusmäärittely - alustava**
+# **Vaatimusmäärittely  alustava**
 
 
 ### Sovelluksen tarkoitus

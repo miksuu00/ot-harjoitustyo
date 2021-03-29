@@ -6,7 +6,7 @@
 
 [komentorivi.txt](https://github.com/miksuu00/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
-[vaatimusmaarittely](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/vaatimusaarittely.md
+[Vaatimusmaarittely](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/vaatimusaarittely.md)
 
 * Sisältö listaa
   * Osio yksi, erilaisa tekstinpätkiä
