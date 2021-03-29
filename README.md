@@ -8,6 +8,8 @@
 
 [Vaatimusmaarittely](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/vaatimusaarittely.md)
 
+[Tuntikirjanpito](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/Tuntikirjanpito)
+
 * Sisältö listaa
   * Osio yksi, erilaisa tekstinpätkiä
   * Tulihan tässä myös testattua pullia ja pushia
