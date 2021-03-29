@@ -20,9 +20,9 @@ Käyttäjäryhmiä luotaisiin alkuun vain yksi roolituksen muodossa, ohjelman to
 helpottaa kun itse toiminnot saadaan ensin kuntoon. Myöhemmässä vaiheessa lisätään pääkäyttäjä
 oikeuksia jotka pääsevät näkemään myös muiden tekemiä raportteja sekä laskettuja budjetteja.
 
-Tähän tulee käyttöliittymäluonnos
+Arvioitu käyttöliittymäluonnos
 
-
+![Näkymä hahmotelma](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/kaava.png)
 
 #### Perusversiosta saatavia toiminnallisuuksia
 
