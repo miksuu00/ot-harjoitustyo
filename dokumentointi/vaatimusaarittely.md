@@ -33,7 +33,7 @@ Arvioitu käyttöliittymäluonnos
 * Kirjautumisen jälkeen
   * Käyttäjä voi katsoa valita tekemänsä budjetin
   * Käyttäjän luoma budjetti näkyy vain hänelle sekä super-user oikeuksilla oleville
-  * Käyttäjä voi merkitä budjetin onnistuneeksi, sekä mahdollisesti poistaa budjettiluonnoksen
+  * Käyttäjä voi palata tarkastelemaan budjettejaan
   * Käyttäjä voi kirjautua ulos sovelluksesta
 
 #### Jatkokehitysajatuksia
@@ -46,4 +46,5 @@ Arvioitu käyttöliittymäluonnos
 * Tulevia hankintoja vapaalla mutta rajatulla aikavälillä ymmärtävä ominaisuus
 * Omien suunnitelmien muokkaus
 * Omien luomien budjettien poisto
+* Käyttäjä voi merkitä budjetin onnistuneeksi, sekä mahdollisesti poistaa budjettiluonnoksen
 
