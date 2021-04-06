@@ -8,7 +8,7 @@ class Budget:
         self.psw = psw
         
 
-    def new_user():
+    def new_user(self):
 
         while True:
             print("Syötä käyttäjänimi ja salasana, salasanan pituus tulee olla vähintään 8 merkkiä!")
@@ -19,11 +19,10 @@ class Budget:
                 sala = input("Salasana:")
 
             profiles = {nimi : sala}
-            print(profiles)
+            
            # print(nimi, sala)
             break
-
-    
+   
 userr = Budget.new_user()
 
 #if __name__ == "__main__":
