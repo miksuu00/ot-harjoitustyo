@@ -1,0 +1,1 @@
+Laitetaan toi projekti src kansio tonne ot-harjoitystyo juureen
