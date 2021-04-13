@@ -9,6 +9,7 @@ python = "^3.8"
 cowsay = "^3.0"
 invoke = "^1.5.0"
 coverage = "^5.5"
+pytest = "^6.2.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.3"
