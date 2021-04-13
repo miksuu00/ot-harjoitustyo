@@ -1,24 +1,26 @@
-**Header on tässä**
-### **Viikko1**
-[gitlog.txt](https://github.com/miksuu00/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+**Budjetti sovellus**
+### **Viikko1-3**
 
--changes for epäsynkro, huuda ku opelin laatikko
 
-[komentorivi.txt](https://github.com/miksuu00/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+
+
+Vaatimus määrittelyn löydät seuraamalla allaolevaa linkkiä
 
 [Vaatimusmaarittely](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/vaatimusaarittely.md)
 
+Alta pääset seuraan tuntikirjanpitoa
+
 [Tuntikirjanpito](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/Tuntikirjanpito)
 
-* Sisältö listaa
-  * Osio yksi, erilaisa tekstinpätkiä
-  * Tulihan tässä myös testattua pullia ja pushia
+* Projektille tehtyjä asioita ja to-do-lista-budget-sovellukseen
+  * Testit tehty
+  * Tietokantojen lisääminen, ei tehty
+  * Jonkinlainen järkevä salasana käsittely
 
 
-*If i could find an Italic xpression of graphical lettering* Jostain se täytyy kokemattoman aloittaa __Nasta **lautaan** sanoi lautturi__
 
-# tägää mut sun kaverilles
-### pitäs varmaa eka olla sometili
-###### onko github sometili biteille ja datoille
+
+### Omnia mea mecum porto
+
 
 
