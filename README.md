@@ -6,7 +6,13 @@ Kurssin loppuunmennessä käyttäjä voi luoda itselleen käyttäjätunnuksen ja
 
 Testattu vuoden 2020 fuksiläppärillä jossa kaikki asennettuna suht-uusimpiin versioihin.
 Pythonista käytössä 3.8.5
-Voi olla että erilaisilla kokoonpanoilla ilmenee ongelmia.
+Voi olla että erilaisilla kokoonpanoilla ilmenee ongelmia. 
+Laitoksen etätyöpöydällä poetryä asennettaessa on hyvä seurata materiaalista löytyvää ohjeistusta 
+[Tänne](https://python-poetry.org/docs/#installation)
+
+Mikäli käytät vanhempaa python-versioita kuin 3.8.5, joudut luultavasti muuttamaan terminaalissa pyproject.toml tiedoston pythonversiota arvosta 3.8 arvoon 3.6.
+
+Tämän jälkeen tulee suorittaa juuressa komento 'poetry install'
 
 
 
