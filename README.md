@@ -1,6 +1,12 @@
 **Budjetti sovellus**
 ### **Viikko1-3**
+----------------------------------------------------------------------------------------------------------------
+Ohjelmassa on tarkoitus saavuttaa budjetin laadinta ominaisuudet kurssinaikana.
+Kurssin loppuunmennessä käyttäjä voi luoda itselleen käyttäjätunnuksen ja luoda omia budjetteja. 
 
+Testattu vuoden 2020 fuksiläppärillä jossa kaikki asennettuna suht-uusimpiin versioihin.
+Pythonista käytössä 3.8.5
+Voi olla että erilaisilla kokoonpanoilla ilmenee ongelmia.
 
 
 
