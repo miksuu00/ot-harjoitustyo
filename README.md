@@ -13,8 +13,7 @@ Laitoksen etätyöpöydällä poetryä asennettaessa on hyvä seurata materiaali
 Mikäli käytät vanhempaa python-versioita kuin 3.8.5, joudut luultavasti muuttamaan terminaalissa pyproject.toml tiedoston pythonversiota arvosta 3.8 arvoon 3.6.
 
 Tämän jälkeen tulee suorittaa juuressa komento 'poetry install'
-
-
+Poetryn tulisi asentaa kaikki vaadittava, mikäli laitteistossa jotain häikkää. Saat asennetteua syöttämällä juuressa käskyn 'poetry add pytest' asennuksen jälkeen voit testailla vaikka poetry shellissä käyttämällä käskyä pytest src
 
 Vaatimus määrittelyn löydät seuraamalla allaolevaa linkkiä
 
