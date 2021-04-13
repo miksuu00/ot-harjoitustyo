@@ -10,10 +10,13 @@ Voi olla että erilaisilla kokoonpanoilla ilmenee ongelmia.
 Laitoksen etätyöpöydällä poetryä asennettaessa on hyvä seurata materiaalista löytyvää ohjeistusta 
 [Tänne](https://python-poetry.org/docs/#installation)
 
-Mikäli käytät vanhempaa python-versioita kuin 3.8.5, joudut luultavasti muuttamaan terminaalissa pyproject.toml tiedoston pythonversiota arvosta 3.8 arvoon 3.6.
+Mikäli käytät vanhempaa python-versioita kuin 3.8.5, joudut luultavasti muuttamaan terminaalissa pyproject.toml tiedoston pythonversiota arvosta 3.8 arvoon 3.6. <- tämä päivitetty
 
 Tämän jälkeen tulee suorittaa juuressa komento 'poetry install'
-Poetryn tulisi asentaa kaikki vaadittava, mikäli laitteistossa jotain häikkää. Saat asennetteua syöttämällä juuressa käskyn 'poetry add pytest' asennuksen jälkeen voit testailla vaikka poetry shellissä käyttämällä käskyä pytest src
+Poetryn tulisi asentaa kaikki vaadittava, mikäli laitteistossa jotain häikkää. Saat asennetteua syöttämällä juuressa käskyn 'poetry add pytest' asennuksen jälkeen voit testailla vaikka poetry shellissä käyttämällä käskyä pytest src <- päivitetty pyproject.toml tiedosto ja asennuksen tulisi toimia suoraviivaisemmin.
+
+Laitoksen koneella tämä toimii src-kansiosta ajettuna.
+
 
 Vaatimus määrittelyn löydät seuraamalla allaolevaa linkkiä
 
