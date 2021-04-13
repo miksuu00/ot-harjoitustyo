@@ -2,8 +2,8 @@ from user import User
 from budget import Budget
 
 def main():
-    name = input("anna käyttäjänimi: ")
-    psw = input("anna salasana: ")
+    name = input("Give thy name(username for your account): ")
+    psw = input("Whos your crazy-cat-lady?(enter your password) : ")
     budger = Budget()
     order =""
     while True:
@@ -19,8 +19,8 @@ def main():
         if order == 2:
             break
         if order == 3:
-            list = budger.return_items()
-            for line in list:
+            listing = budger.return_items()
+            for line in listing:
                 print(line)
 
     user_x = User(name, psw)
