@@ -12,5 +12,4 @@ laskarit/viikko2/unicafe/src/tests/htmlcov/
 src/__pycache__/budget.cpython-38.pyc
 src/__pycache__/user.cpython-38.pyc
 htmlcov/
-.coverage
-.coveragerc
+
