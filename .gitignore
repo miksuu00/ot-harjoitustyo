@@ -12,4 +12,7 @@ laskarit/viikko2/unicafe/src/tests/htmlcov/
 src/__pycache__/budget.cpython-38.pyc
 src/__pycache__/user.cpython-38.pyc
 htmlcov/
+data/
+src/__pycache__/database_connection.cpython-38.pyc
+src/__pycache__/initialize_database.cpython-38.pyc
 
