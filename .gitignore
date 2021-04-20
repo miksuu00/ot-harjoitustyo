@@ -8,6 +8,8 @@ src/ui/__pycache__/ui.cpython-38.pyc
 src/ui/__pycache__/__init__.cpython-38.pyc
 src/services/__pycache__/budget_service.cpython-38.pyc
 src/repositories/__pycache__/user_repository.cpython-38.pyc
+src/__pycache__/user.cpython-38.pyc
+src/ui/__pycache__/
 
 /laskarit/viikko2/unicafe/.coverage
 /laskarit/viikko2/unicafe/htmlcov

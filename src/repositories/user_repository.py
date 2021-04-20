@@ -1,4 +1,4 @@
-import sqlite3
+from database_connection import get_database_connection
 
 
 class UserRepository:
@@ -12,15 +12,18 @@ class UserRepository:
 
     def get_user_by_name(self, username):
         cursor = self._connection.cursor()
-        name = cursor.execute('SELECT * FROM users WHERE username = ?',(username,))
+        name = cursor.execute(
+            'SELECT * FROM users WHERE username = ?', (username,))
         return name.fetchone()
 
     def create_new_user(self, username, password):
         cursor = self._connection.cursor()
-        cursor.execute('INSERT INTO user (username, password) VALUES (:username, :password)', {'username' : username, 'password':password})
+        cursor.execute('INSERT INTO user (username, password) VALUES (:username, :password)',
+                       {'username': username, 'password': password})
         self._connection.commit()
 
     def check_credentials(self, username, password):
         cursor = self._connection.cursor()
-        query = cursor.execute('SELECT * NAME FROM user WHERE username=:username AND password=:password', {'username':username, 'password':password})
+        query = cursor.execute('SELECT * NAME FROM user WHERE username=:username AND password=:password',
+                               {'username': username, 'password': password})
         return query.fetchone()

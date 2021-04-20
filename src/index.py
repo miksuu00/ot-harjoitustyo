@@ -1,7 +1,6 @@
-from user import User
-from budget import Budget
-from initialize_database import initialize_database
 from tkinter import Tk
+from user import User
+from initialize_database import initialize_database
 from ui.ui import UI
 
 
@@ -11,7 +10,6 @@ def main():
     ui = UI(window)
     ui.start()
     window.mainloop()
- 
 
 
 if __name__ == "__main__":

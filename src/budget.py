@@ -8,8 +8,4 @@ class Budget:
         self.budjet.append(cost+";"+amount)
     
     def return_items(self):
-        
         return self.budjet
-#if __name__ == "__main__":
-
-    #Budget.new_user()
