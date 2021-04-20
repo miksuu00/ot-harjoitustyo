@@ -15,9 +15,9 @@ def create_tables(connection):
     cursor = connection.cursor()
 
     cursor.execute('''
-        create table mytable (
-            id text primary key,
-            mycolumn text
+        CREATE TABLE IF NOT EXISTS users (
+            username text primary key,
+            password text
         );
     ''')
 
