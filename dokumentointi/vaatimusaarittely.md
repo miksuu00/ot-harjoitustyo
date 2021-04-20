@@ -27,8 +27,8 @@ Arvioitu käyttöliittymäluonnos
 #### Perusversiosta saatavia toiminnallisuuksia
 
 * Alkunäyttö
-  * Luodaan oma käyttäjätunnus ja profiili
-  * Alkunäytöllä voi myös kirjautua suoraan sisään
+  * Luodaan oma käyttäjätunnus ja profiili - toteutettu graafinen näkymä
+  * Alkunäytöllä voi myös kirjautua suoraan sisään - toteutettu grafinen näkymä
  
 * Kirjautumisen jälkeen
   * Käyttäjä voi katsoa valita tekemänsä budjetin
