@@ -19,6 +19,10 @@ Poetryn tulisi asentaa kaikki vaadittava, mikäli laitteistossa jotain häikkä�
 
 Laitoksen koneella tämä toimii src-kansiosta ajettuna.
 
+Lisättynä pylint ja tämän ajaminen juuressa onnistuu käskyllä poetry run invoke lint.
+Luotu 2 luokkaa graafista näkymää varten.
+Tietokannat työn alla.
+
 
 Vaatimus määrittelyn löydät seuraamalla allaolevaa linkkiä
 
