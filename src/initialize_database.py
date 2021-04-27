@@ -16,7 +16,11 @@ def create_tables(connection):
 
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS users (
-            username text primary key,
+            id integer primary key,
+            date text,
+            expense text,
+            amount text,
+            username text,
             password text
         );
     ''')

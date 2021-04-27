@@ -15,6 +15,7 @@ class UsernameExistsError(Exception):
 class BudgetService:
 
     def __init__(self, user_repository=default_user_repository):
+        self._budget = []
         self._user = None
         self._user_repository = default_user_repository
 
@@ -32,6 +33,13 @@ class BudgetService:
             raise UsernameExistsError(f"Username {username} already exists")
         user = self._user_repository.create(User(username, password))
         return user
+    def add_cost(self, cost, amount):
+        insert = str(cost) +":"+str(amount)
+        self._budget.append(insert)
+    
+    
+        
+
 
 
 budget_service = BudgetService()
