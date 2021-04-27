@@ -33,7 +33,7 @@ Vaatimus määrittelyn löydät seuraamalla allaolevaa linkkiä
 
 Alta pääset seuraan tuntikirjanpitoa
 
-[Tuntikirjanpito](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/Tuntikirjanpito)
+[Tuntikirjanpito](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/Tuntikirjanpito.md)
 
 * Projektille tehtyjä asioita ja to-do-lista-budget-sovellukseen
   * Testit tehty
