@@ -1,5 +1,5 @@
 from tkinter import ttk, constants, StringVar
-from services.budget_service import budget_service, UsernameExistsError
+from services.budget_service import BudgetService, UsernameExistsError
 
 
 class NewUserView:

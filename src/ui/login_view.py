@@ -3,7 +3,7 @@ from services.budget_service import BudgetService, InvalidCredentialsError
 
 
 class LoginMain:
-    def __init__(self, root, _login_attempt, handle_create_new_user):
+    def __init__(self, root, _login_attempt, handle_create_new_user, budget_view_screen, handle_show_list_view):
         self._root = root
         self._handle_create_new_user_view = handle_create_new_user
         self._login_attempt = _login_attempt
@@ -11,6 +11,8 @@ class LoginMain:
         self._username = None
         self._password = None
         self._error = None
+        self._budget_view_screen = budget_view_screen
+        self._show_list_view = handle_show_list_view
         self._initialize_login_screen()
 
     def pack(self):
@@ -62,6 +64,11 @@ class LoginMain:
         button_new_user = ttk.Button(
             master=self._frame, text='Press to create new account', command=self._handle_create_new_user_view)
         # lisää button_new_user, command linkitys "create user view luokkaan(tee myös se luokka ja muista lisätä konstruktorin attribuutti)"
+        button_add_cost = ttk.Button(
+            master=self._frame, text='Press to add cost', command=self._budget_view_screen)
+        button_show_expenses = ttk.Button(master=self._frame, text='Show expenses', command= self._show_list_view)
+        button_show_expenses.grid(row=10)
+        button_add_cost.grid(row=7)
         button_new_user.grid(row=6)
         self._frame.pack()
         # create_new_user_button=ttk.Button(master=self._frame, 'Create account',command=self._change_new_account_view)
