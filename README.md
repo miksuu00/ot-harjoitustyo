@@ -12,6 +12,9 @@ Laitoksen etätyöpöydällä poetryä asennettaessa on hyvä seurata materiaali
 
 Muista myös tämä terminaalissa  source $HOME/.poetry/env
 
+Github [Release](https://github.com/miksuu00/ot-harjoitustyo/releases/tag/viikko5)
+[Arkkitehtuuri.md](https://github.com/miksuu00/ot-harjoitustyo/blob/master/dokumentointi/Arkkitehtuuri.md)
+
 Tämän jälkeen tulee suorittaa juuressa komento 'poetry install'
 Sidenote: mikäli tulee virheilmoituksia usein poetry päivitys auttaa eli 'poetry update'ja tämän jälkeen 'poetry install' toimii.
 
