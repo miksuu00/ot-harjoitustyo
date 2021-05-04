@@ -7,6 +7,9 @@
 - 24.4. 5h numpyn tutkimista
 - 25.4. 7h matplotlib tutkmista
 - 26.4. 4h materiaalin lukua ja linkkien seuraamista
+- 28.4. 5h rakennettu tekstikäyttöliittymä
+- 29.4. 3h opiskeltu tietokantoja
+- 30.4. 7h rakenneltu graafeja matplotlibillä jota ei saatu lisättyä poetryyn
+- 4.5.  5h tekstiliittymä tuhottu ja palattu tkinteriin
 
-
-- Summa tuntimäärä on 34h
+- Summa tuntimäärä on 54h
