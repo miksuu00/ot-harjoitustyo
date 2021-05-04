@@ -4,6 +4,15 @@ from services.budget_service import BudgetService, InvalidCredentialsError
 
 class LoginMain:
     def __init__(self, root, _login_attempt, handle_create_new_user, budget_view_screen, handle_show_list_view):
+        """konstruktori
+
+        Args:
+            root (pääframe): frame
+            _login_attempt (kirjautumisyritys): toimii kun tietokannat luotu
+            handle_create_new_user (kirjautuminen): kirjautumisoptio olemassa olevilla tunnuksilla
+            budget_view_screen (budgetti): siirtymä budjettinkäykmään optio
+            handle_show_list_view (listausnäkymä): listausnäkymä opito
+        """
         self._root = root
         self._handle_create_new_user_view = handle_create_new_user
         self._login_attempt = _login_attempt
@@ -16,16 +25,24 @@ class LoginMain:
         self._initialize_login_screen()
 
     def pack(self):
+        """Tämä pakkaa main framen yhteen pakkaukseen
+        """
        # self._initialize_login_screen()
         self._frame.pack(fill=ttk.BOTH, side=ttk.left, expand=True)
 
     def destroy(self):
+        """Tämä tuhoaa vanhan framen jotta uudella on tilaa kukoistaa
+        """
         self._frame.destroy()
 
     def _error_remove(self):
+        """tämä poistaa vanahn error viestin jotta uusia voi syntyä 
+        """
         self._error_label.grid_remove()
 
     def _login_attempt(self):
+        """Tässä koitetaan kirjautua tietokantaan jota ei vielä ole
+        """
         username = self._username.get()
         password = self._password.get()
 
@@ -36,6 +53,11 @@ class LoginMain:
             self._error_label_output('Check you credentials! Invalid input!')
 
     def _error_label_output(self, message):
+        """Aseteteaan virheviesti
+
+        Args:
+            message ([Virheviesti]): [Virheev kuvaus tekstisanallisesti merkkijonona]
+        """
         self._error.set(message)
         self._error_label.grid()
 

@@ -15,6 +15,8 @@ class ListView:
     
 
     def _initialize(self):
+        """Käynnistetään listaus näkymä, näkymän alustus ja liitännäis luokkien alustus sekä tiedon haku
+        """
         
         self._frame = ttk.Frame(master= self._root)
         self._text = Text(master=self._root, height = 50, width = 100)
@@ -31,4 +33,6 @@ class ListView:
         self._frame.pack()
 
     def destroy(self):
+        """Tuhotaan vanha näkymä
+        """
         self._frame.destroy()

@@ -4,7 +4,10 @@ from initialize_database import initialize_database
 from ui.ui import UI
 
 
+
 def main():
+    """Alustellaan tarvittavat kirjastot ja lähdetään ajamaan ohjelmaa
+    """
     window = Tk()
 
     ui = UI(window)

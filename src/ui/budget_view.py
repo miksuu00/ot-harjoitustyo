@@ -3,6 +3,8 @@ from services.budget_service import BudgetService, UsernameExistsError
 
 
 class BudgetView:
+    """Budjetti näkymä jossa muodostetaan ja alustetaan muuttujat sekä otetaan vastaan parametrit
+    """
     def __init__(self, root, handle_show_budget, handle_show_login):
         self._root = root
         self._cost = None
@@ -17,12 +19,19 @@ class BudgetView:
         self._initialize()
 
     def pack(self):
+        """Main framen paketointi, käytetään laajalti ympäri ohjelmiston
+        """
         self._frame.pack(fill=ttk.BOTH, side=ttk.left, expand=True)
 
     def destroy(self):
+        """Tuhontaan vanha näkymä, käytetään laajalti ympäri ohjelmiston
+        """
         self._frame.destroy()
 
     def _initialize(self):
+        """Luodaan pääframelle labelit, syöttökentät sekä kutsutaan muiden luokkien funktioita saaduilla tiedoilla
+        
+        """
         self._frame = ttk.Frame(master=self._root)
         self._error_label = ttk.Label(
             master=self._frame, textvariable=self._error)

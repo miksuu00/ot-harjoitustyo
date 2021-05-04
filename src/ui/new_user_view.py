@@ -4,6 +4,12 @@ from services.budget_service import budget_service, UsernameExistsError
 
 class NewUserView:
     def __init__(self, root, handle_show_login):
+        """Konstruktori jossa luodaan päänäkymän jälkeinen visuaalinen ote
+
+        Args:
+            root ([pääfreimi jolle rakennetaan]): [frame]
+            handle_show_login ([lisäoptio sisäänkirjautumiseen]): [show login liitännäinen]
+        """
         self._root = root
 
         self._handle_show_login = handle_show_login
@@ -15,12 +21,20 @@ class NewUserView:
         self._initialize()
 
     def pack(self):
+        """pakkaus funktio jota käytetään laajalti ohjelman toiminnallisuudessa,
+        paketoi ohjelman metodit yhteen nipppuun
+        """
         self._frame.pack(fill=ttk.BOTH, side=ttk.left, expand=True)
 
     def destroy(self):
+        """Tuhoaa vanhan näkymän, jotta uusi pääsee pinnalle, käytetään laajaltin ohjelman toiminnallisuudesssa
+        """
         self._frame.destroy()
 
     def _create_new_user(self):
+        """Luodaan uusi käyttäjä (kun tietokannat implementoitu
+        )
+        """
         username = self._username_entry.get()
         password = self._username_entry.get()
         if len(username) == 0 or len(password) < 8:
@@ -35,11 +49,19 @@ class NewUserView:
             self._show_error('Username already exists, choose another one!')
 
     def _show_error(self, message):
+        """Funkito virhe viestin esittämiseen
 
+        Args:
+            message (Tiedoksianto): Virheen mukainen tiedoksianto
+        """
         self._error.set(message)
         self._error_label.grid()
 
     def _initialize(self):
+
+        """Käynnistetään näkymän luonti,
+        luodaan frame, labelit sekä entry-kentät
+        """
         self._frame = ttk.Frame(master=self._root)
         self._error_label = ttk.Label(
             master=self._frame, textvariable=self._error)
