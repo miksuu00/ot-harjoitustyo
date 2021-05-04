@@ -38,7 +38,7 @@ class BudgetView:
         
         
         add_new_cost_button = ttk.Button(master=self._frame, text='Add this cost', 
-        command=lambda:[ self._budget_service.add_cost(self._cost, self._amount), self._show_login_view()])
+        command=lambda:[ self._budget_service._add_cost(self._cost, self._amount), self._show_login_view()])
 
         add_new_cost_button.grid(row=9)
 
