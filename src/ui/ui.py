@@ -13,6 +13,7 @@ class UI:
         """
         self._root = root
         self._current_view = None
+        
 
     def start(self):
         """Ohjelma käynniistyy ja kutsuu aloitus ruudtua metodin kautta
