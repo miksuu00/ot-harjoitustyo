@@ -17,8 +17,8 @@ class LoginMain:
         self._handle_create_new_user_view = handle_create_new_user
         self._login_attempt = _login_attempt
         self._frame = None
-        self._username = StringVar
-        self._password = StringVar
+        self._username = StringVar()
+        self._password = StringVar()
         self._error = None
         self._budget_view_screen = budget_view_screen
         self._show_list_view = handle_show_list_view

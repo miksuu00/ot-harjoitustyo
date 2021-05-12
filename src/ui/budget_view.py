@@ -7,13 +7,14 @@ class BudgetView:
     """
     def __init__(self, root, handle_show_budget, handle_show_login):
         self._root = root
-        self._cost = StringVar
-        self._amount = StringVar
+        self._cost = StringVar()
+        self._amount = StringVar()
         self._handle_show_budget = handle_show_budget
         self._frame = None
         self._error = None
         self._budget = []
         self._item_cost = {'item': str, 'amount': float}
+        self._frame = ttk.Frame(master=self._root)
         
         self._budget_service = BudgetService()
         self._show_login_view = handle_show_login
@@ -34,9 +35,11 @@ class BudgetView:
 
         
     def _add_cost(self, cost, amount):
-        self._item_cost['item'] = cost
+        print("tultiin budget_view luokan _add_cost funktioon")
+        self._budget_service.add_cost(cost, amount)
         self._item_cost['amount'] = amount
         self._budget.append(self._item_cost)
+
 
     def _return_shopping(self):
         total_shopping = 0
@@ -48,7 +51,7 @@ class BudgetView:
         """Luodaan pääframelle labelit, syöttökentät sekä kutsutaan muiden luokkien funktioita saaduilla tiedoilla
         
         """
-        self._frame = ttk.Frame(master=self._root)
+        
         self._error_label = ttk.Label(
             master=self._frame, textvariable=self._error)
         self._cost_label = ttk.Label(master=self._frame, text='Insert cost')
