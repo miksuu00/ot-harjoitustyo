@@ -21,7 +21,7 @@ class ListView:
         self._frame = ttk.Frame(master= self._root)
         self._text = Text(master=self._frame)
         
-        self._cost_list = bw._return_shopping()
+        self._cost_list = budget_service._return_cost_list()
         self._var = StringVar()
         self._var.set(self._cost_list)
         self._budget_label = ttk.Label(master=self._frame, textvariable= self._var)

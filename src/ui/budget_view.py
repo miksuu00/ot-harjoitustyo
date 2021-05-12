@@ -7,8 +7,8 @@ class BudgetView:
     """
     def __init__(self, root, handle_show_budget, handle_show_login):
         self._root = root
-        self._cost = None
-        self._amount = None
+        self._cost = StringVar
+        self._amount = StringVar
         self._handle_show_budget = handle_show_budget
         self._frame = None
         self._error = None

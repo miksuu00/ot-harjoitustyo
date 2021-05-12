@@ -34,7 +34,7 @@ class BudgetService:
     def _add_income(self, income, amount):
         """lisätään tulo ja sen luokka tuloikirjanpidolle
         jotta pysytään tuloissa mukanaa
-
+ 
         Args:
             income (Sisääntulo): Mikä on sisääntulon luokka, palkka, bonus vai lottovoitto
             amount (Summa): Numeerinen määritelmä tulosta

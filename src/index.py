@@ -1,6 +1,6 @@
 from tkinter import Tk
 
-from initialize_database import initialize_database
+
 from ui.ui import UI
 
 
@@ -16,5 +16,5 @@ def main():
 
 
 if __name__ == "__main__":
-    initialize_database()
+    
     main()
