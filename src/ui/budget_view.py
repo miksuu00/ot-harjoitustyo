@@ -47,6 +47,10 @@ class BudgetView:
             total_shopping += float(item['amount'])
         return total_shopping
 
+    def _add_cost_to_budget_file(self, cost, amount):
+        with open ("budketti.csv", "a") as file:
+            file.write(cost, amount)
+
     def _initialize(self):
         """Luodaan pääframelle labelit, syöttökentät sekä kutsutaan muiden luokkien funktioita saaduilla tiedoilla
         
